@@ -1,0 +1,41 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+backports-weakref=1.0.post1=pypi_0
+blas=1.0=mkl
+bleach=1.5.0=pypi_0
+ca-certificates=2021.7.5=hecd8cb5_1
+certifi=2020.6.20=pyhd3eb1b0_3
+enum34=1.1.10=pypi_0
+funcsigs=1.0.2=pypi_0
+futures=3.3.0=pypi_0
+html5lib=0.9999999=pypi_0
+intel-openmp=2021.3.0=hecd8cb5_3375
+libcxx=10.0.0=1
+libffi=3.3=hb1e8313_2
+libgfortran=3.0.1=h93005f0_2
+markdown=3.1.1=pypi_0
+mkl=2019.4=233
+mkl-service=2.3.0=py27hfbe908c_0
+mkl_fft=1.0.15=py27h5e564d8_0
+mkl_random=1.1.0=py27ha771720_0
+mock=3.0.5=pypi_0
+ncurses=6.2=h0a44026_1
+numpy=1.16.2=pypi_0
+numpy-base=1.16.6=py27h6575580_0
+pickle-mixin=1.0.2=pypi_0
+pip=19.3.1=py27_0
+protobuf=3.17.3=pypi_0
+python=2.7.18=h47d645e_1
+readline=8.1=h9ed2024_0
+scipy=1.2.1=py27h1410ff5_0
+setuptools=44.0.0=py27_0
+six=1.16.0=pyhd3eb1b0_0
+sqlite=3.36.0=hce871da_0
+tensorflow=1.4.0=pypi_0
+tensorflow-tensorboard=0.4.0=pypi_0
+tk=8.6.10=hb0a8c7a_0
+tqdm=4.61.2=pypi_0
+werkzeug=1.0.1=pypi_0
+wheel=0.36.2=pyhd3eb1b0_0
+zlib=1.2.11=h1de35cc_3
