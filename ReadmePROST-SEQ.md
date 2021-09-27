@@ -23,12 +23,19 @@ Requirements:
 3. Activate python3 virtual environment and run the python script (Mutation_pred.py):
 
 Command-line arguments:
+  
   {-file,--file}	protein sequence (FASTA format)
+  
   {-mutation, --mutation}	missence mutation (example: A 12 W or GLN 10 ALA)
+  
   {-mutlist, --mutlist, --ml, --mutation-list}	list of mutations
+  
   {-outdir, --outdir, --out-dir}	directory name for results
+  
   {-out-file, --out-file} Name for the result output file
+  
   {-h, --help}	command-line summary
+  
   
 
  1) single mutation
