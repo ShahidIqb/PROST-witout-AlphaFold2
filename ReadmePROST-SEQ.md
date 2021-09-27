@@ -50,6 +50,7 @@ Command-line arguments:
 
 
 Example:
+		
 		1) python Mutation_pred.py -file Input/Frataxin.txt -mutlist Input/Frataxin_mut.txt -outdir Result
 		
 		2) python Mutation_pred.py -file Input/Frataxin.txt -mutation D 21 G  -outdir Result -out-file D21G_result
