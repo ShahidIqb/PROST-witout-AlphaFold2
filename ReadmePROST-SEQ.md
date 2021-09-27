@@ -39,9 +39,11 @@ Command-line arguments:
   
 
  1) single mutation
+ 
  python Mutation_pred.py -file fasta.txt -mutation wild-residue position mutant-residue  -outdir(optional) Result -out-file (optional) mutation_result
  
  2) list of mutations
+ 
  python Mutation_pred.py -file fasta.txt -mutlist Mut_list.txt -outdir(optional) Result -out-file(optional) mut_list_Result
 
 
