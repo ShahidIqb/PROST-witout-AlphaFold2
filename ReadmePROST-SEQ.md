@@ -17,7 +17,7 @@ Requirements:
  
   		iii) uniprot20_2016_02 (https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2016_02/uniref/uniref2016_02.tar.gz)
 
-  2.1 Check and rectify paths to DATABASES in Mutation_pred.py and spd33_run_list.sh
+  	2.1 Check and rectify paths to DATABASES in Mutation_pred.py and spd33_run_list.sh
 
 
 3. Activate python3 virtual environment and run the python script (Mutation_pred.py):
@@ -40,18 +40,18 @@ Command-line arguments:
 
  1) single mutation
  
- python Mutation_pred.py -file fasta.txt -mutation wild-residue position mutant-residue  -outdir(optional) Result -out-file (optional) mutation_result
+ 		python Mutation_pred.py -file fasta.txt -mutation wild-residue position mutant-residue  -outdir(optional) Result -out-file (optional) mutation_result
  
  2) list of mutations
  
- python Mutation_pred.py -file fasta.txt -mutlist Mut_list.txt -outdir(optional) Result -out-file(optional) mut_list_Result
+ 		python Mutation_pred.py -file fasta.txt -mutlist Mut_list.txt -outdir(optional) Result -out-file(optional) mut_list_Result
 
 
 
 
 Example:
-1) python Mutation_pred.py -file Input/Frataxin.txt -mutlist Input/Frataxin_mut.txt -outdir Result
-2) python Mutation_pred.py -file Input/Frataxin.txt -mutation D 21 G  -outdir Result -out-file D21G_result
+		1) python Mutation_pred.py -file Input/Frataxin.txt -mutlist Input/Frataxin_mut.txt -outdir Result
+		2) python Mutation_pred.py -file Input/Frataxin.txt -mutation D 21 G  -outdir Result -out-file D21G_result
 
 
 **Internal files will be generated inside Gen_Files folder.
