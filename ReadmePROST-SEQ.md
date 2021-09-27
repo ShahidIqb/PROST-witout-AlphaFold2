@@ -3,7 +3,9 @@ Requirements:
 
 
 1. Installation of Anaconda3 is prefered
+  
   i) create python3 virtual environment and fulfil (install packages) requirements3.txt
+  
   ii) create python2 virtual environment and fulfil (install packages) requirementspy2.txt [Required for running spd33 on a new sequence file]. Activate python 2  in spd33_run_list.sh
 
 
