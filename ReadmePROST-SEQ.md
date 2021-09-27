@@ -8,8 +8,11 @@ Requirements:
 
 
 2. [Required for running on a new sequence] Download the following databases and unzip
+ 
  i) unire50 (https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50)
+ 
  ii) uniclust30_2018_08 (http://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz)
+ 
  iii) uniprot20_2016_02 (https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2016_02/uniref/uniref2016_02.tar.gz)
 
  2.1 Check and rectify paths to DATABASES in Mutation_pred.py and spd33_run_list.sh
