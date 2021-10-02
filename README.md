@@ -38,6 +38,7 @@ Installation of Anaconda3 is prefered
 single mutation
 
 python Mutation_pred.py -file fasta.txt -mutation wild-residue position mutant-residue  -outdir(optional) Result -out-file (optional) mutation_result
+
 list of mutations
 
 python Mutation_pred.py -file fasta.txt -mutlist Mut_list.txt -outdir(optional) Result -out-file(optional) mut_list_Result
@@ -47,4 +48,5 @@ python Mutation_pred.py -file fasta.txt -mutlist Mut_list.txt -outdir(optional) 
 	1) python Mutation_pred.py -file Input/Frataxin.txt -mutlist Input/Frataxin_mut.txt -outdir Result
 	
 	2) python Mutation_pred.py -file Input/Frataxin.txt -mutation D 21 G  -outdir Result -out-file D21G_result
+
 **Internal files will be stored inside Gen_Files folder.
