@@ -1,0 +1,15 @@
+name: PROST_SEQvenv
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy==1.16.1
+  - pyfaidx
+  - pandas
+  - matplotlib
+  - hhsuite
+  - biopython
+  - xgboost==0.90
+  - blast
+  - graphviz
+prefix: /Users/siqb0003/opt/anaconda3/envs/PROST_SEQvenv
