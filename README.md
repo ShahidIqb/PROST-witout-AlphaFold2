@@ -20,21 +20,21 @@ Installation of Anaconda3 is prefered
 
 	2.1) Check and rectify paths to DATABASES in Mutation_pred.py and spd33_run_list.sh
 
-Activate python3 virtual environment and run the python script (Mutation_pred.py):
+3) Activate python3 virtual environment and run the python script (Mutation_pred.py):
 
-3) Command-line arguments:
+	Command-line arguments:
 
-	{-file,--file}	protein sequence (FASTA format)
+		{-file,--file}	protein sequence (FASTA format)
 
-	{-mutation, --mutation}	missence mutation (example: A 12 W or GLN 10 ALA)
+		{-mutation, --mutation}	missence mutation (example: A 12 W or GLN 10 ALA)
 
-	{-mutlist, --mutlist, --ml, --mutation-list}	list of mutations
+		{-mutlist, --mutlist, --ml, --mutation-list}	list of mutations
 
-	{-outdir, --outdir, --out-dir}	directory name for results
+		{-outdir, --outdir, --out-dir}	directory name for results
 
-	{-out-file, --out-file} Name for the result output file
+		{-out-file, --out-file} Name for the result output file
 
-	{-h, --help}	command-line summary
+		{-h, --help}	command-line summary
 single mutation
 
 python Mutation_pred.py -file fasta.txt -mutation wild-residue position mutant-residue  -outdir(optional) Result -out-file (optional) mutation_result
