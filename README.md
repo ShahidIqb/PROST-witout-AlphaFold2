@@ -37,11 +37,11 @@ Installation of Anaconda3 is prefered
 		{-h, --help}	command-line summary
 Single mutation
 
-python Mutation_pred.py -file fasta.txt -mutation wild-residue position mutant-residue  -outdir(optional) Result -out-file (optional) mutation_result
+	python Mutation_pred.py -file fasta.txt -mutation wild-residue position mutant-residue  -outdir(optional) Result -out-file (optional) mutation_result
 
 List of mutations
 
-python Mutation_pred.py -file fasta.txt -mutlist Mut_list.txt -outdir(optional) Result -out-file(optional) mut_list_Result
+	python Mutation_pred.py -file fasta.txt -mutlist Mut_list.txt -outdir(optional) Result -out-file(optional) mut_list_Result
 
 4) Example:
 
@@ -50,4 +50,4 @@ python Mutation_pred.py -file fasta.txt -mutlist Mut_list.txt -outdir(optional) 
 	2) python Mutation_pred.py -file Input/Frataxin.txt -mutation D 21 G  -outdir Result -out-file D21G_result
 
 
-NOTE: **Internal files will be stored inside Gen_Files folder.
+**Internal files will be stored inside Gen_Files folder.
