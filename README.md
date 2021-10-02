@@ -5,42 +5,49 @@ Requirements: Listed separately as requirementsPy2.txt and requirementsPy3.txt f
 
 Installation of Anaconda3 is prefered
 
- i) create python3 virtual environment and fulfil (install packages) requirements3.txt
+ 1) create python3 virtual environment and fulfil (install packages) requirements3.txt
 
- ii) create python2 virtual environment and fulfil (install packages) requirementspy2.txt [Required for running spd33 on a new sequence file]. Activate python 2  in spd33_run_list.sh
-[Required for running on a new sequence] Download the following databases and unzip
+ 2) create python2 virtual environment and fulfil (install packages) requirementspy2.txt [Required for running run_list_spd33.sh on a new sequence file]. Activate python 2  in spd33_run_list.sh
+[Required for running on a new sequence] 
 
- i) unire50 (https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50)
+	Download the following databases and unzip
 
- ii) uniclust30_2018_08 (http://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz)
+ 	i) unire50 (https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50)
 
- iii) uniprot20_2016_02 (https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2016_02/uniref/uniref2016_02.tar.gz)
-2.1 Check and rectify paths to DATABASES in Mutation_pred.py and spd33_run_list.sh
+ 	ii) uniclust30_2018_08 (http://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz)
 
-Activate python3 virtual environment and run the python script (Mutation_pred.py):
+ 	iii) uniprot20_2016_02 (https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2016_02/uniref/uniref2016_02.tar.gz)
 
-Command-line arguments:
+	2.1) Check and rectify paths to DATABASES in Mutation_pred.py and spd33_run_list.sh
 
-	{-file,--file}	protein sequence (FASTA format)
+3) Activate python3 virtual environment and run the python script (Mutation_pred.py):
 
-	{-mutation, --mutation}	missence mutation (example: A 12 W or GLN 10 ALA)
+	Command-line arguments:
 
-	{-mutlist, --mutlist, --ml, --mutation-list}	list of mutations
+		{-file,--file}	protein sequence (FASTA format)
 
-	{-outdir, --outdir, --out-dir}	directory name for results
+		{-mutation, --mutation}	missence mutation (example: A 12 W or GLN 10 ALA)
 
-	{-out-file, --out-file} Name for the result output file
+		{-mutlist, --mutlist, --ml, --mutation-list}	list of mutations
 
-	{-h, --help}	command-line summary
-single mutation
+		{-outdir, --outdir, --out-dir}	directory name for results
 
-python Mutation_pred.py -file fasta.txt -mutation wild-residue position mutant-residue  -outdir(optional) Result -out-file (optional) mutation_result
-list of mutations
+		{-out-file, --out-file} Name for the result output file
 
-python Mutation_pred.py -file fasta.txt -mutlist Mut_list.txt -outdir(optional) Result -out-file(optional) mut_list_Result
-Example:
+		{-h, --help}	command-line summary
+Single mutation
+
+	python Mutation_pred.py -file fasta.txt -mutation wild-residue position mutant-residue  -outdir(optional) Result -out-file (optional) mutation_result
+
+List of mutations
+
+	python Mutation_pred.py -file fasta.txt -mutlist Mut_list.txt -outdir(optional) Result -out-file(optional) mut_list_Result
+
+4) Example:
 
 	1) python Mutation_pred.py -file Input/Frataxin.txt -mutlist Input/Frataxin_mut.txt -outdir Result
 	
 	2) python Mutation_pred.py -file Input/Frataxin.txt -mutation D 21 G  -outdir Result -out-file D21G_result
+
+
 **Internal files will be stored inside Gen_Files folder.
