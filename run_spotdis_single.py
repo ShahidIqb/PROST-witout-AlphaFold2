@@ -1,4 +1,4 @@
-#!/Users/siqb0003/opt/anaconda3/envs/PROST_SEQvenv/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
 #import tensorflow as tf

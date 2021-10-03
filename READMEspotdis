@@ -13,7 +13,7 @@ several python packages, please verify that they are installed before use:
     tensorflow (v1.4)    ---> see https://www.tensorflow.org/install/
     numpy
     tqdm
-    cPickle
+    pickle
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
