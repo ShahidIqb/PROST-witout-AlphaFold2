@@ -1,6 +1,8 @@
 # PROST-SEQ
 A tool for predicting the effects of missense mutations on protein stability changes upon missense mutation using protein sequence only.
 
+![prost-seq (4)](https://user-images.githubusercontent.com/48677766/142978613-0693aeb3-2eac-4748-8227-251384ef3316.png)
+
 Requirements: Listed separately as requirementsPy2.txt and requirementsPy3.txt for virtual environments.
 
 Installation of Anaconda3 is prefered
