@@ -1,4 +1,4 @@
-name: PROST_SEQvenv
+name: py3
 channels:
   - defaults
 dependencies:
@@ -12,4 +12,4 @@ dependencies:
   - xgboost==0.90
   - blast
   - graphviz
-prefix: /Users/siqb0003/opt/anaconda3/envs/PROST_SEQvenv
+prefix: /Users/siqb0003/opt/anaconda3/envs/py3
