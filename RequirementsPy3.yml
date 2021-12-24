@@ -1,4 +1,4 @@
-name: PROST_SEQvenv
+name: py3
 channels:
   - conda-forge
   - bioconda
@@ -116,4 +116,4 @@ dependencies:
     - werkzeug==2.0.1
     - wrapt==1.12.1
     - zipp==3.5.0
-prefix: /Users/siqb0003/opt/anaconda3/envs/PROST_SEQvenv
+prefix: /Users/siqb0003/opt/anaconda3/envs/py3
