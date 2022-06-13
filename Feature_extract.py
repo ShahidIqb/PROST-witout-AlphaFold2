@@ -41,8 +41,7 @@ def pssm_check(file_name, dir):
  file_name += '.pssm'
  #print(file_name)
  if os.path.exists(dir+'/'+file_name):
-  tempvar = 3
-  #print("Build "+file_name+" PSSM done...")
+  print("Build "+file_name+" PSSM done...")
  else:
   print("Can't get the PSSM, please check the sequence")
   sys.exit()
@@ -51,8 +50,7 @@ def spd33_check(file_name, dir):
  file_name += '.spd33'
  #print(file_name)
  if os.path.exists(dir+'/'+file_name):
-  tempvar = 3
-  #print("Build "+file_name+" spd33 done...")
+  print("Build "+file_name+" spd33 done...")
  else:
   print("Can't get the spd33, please check the sequence")
   sys.exit()
@@ -61,8 +59,7 @@ def spotdis_check(file_name, dir):
  file_name += '.spotds'
  #print(file_name)
  if os.path.exists(dir+'/'+file_name):
-  tempvar = 3
-  #print("Build "+file_name+" Spot Disorder Single done...")
+  print("Build "+file_name+" Spot Disorder Single done...")
  else:
   print("Can't get the Spot Disorder Single, please check the sequence")
   sys.exit()
