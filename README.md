@@ -10,7 +10,7 @@ Installation of Anaconda3 is prefered
 
  1) create python3 virtual environment and fulfil (install packages) requirements3.txt
 
- 2) create python2 virtual environment and fulfil (install packages) requirementspy2.txt [Required for running run_list_spd33.sh on a new sequence file]. Activate python 2  in spd33_run_list.sh
+ 2) create python2 virtual environment and fulfil (install packages) requirementspy2.txt [Required for running run_list_spd33.sh on a new sequence file]. Activate python2  in spd33_run_list.sh
 [Required for running on a new sequence] 
 
 	Download the following databases and unzip
