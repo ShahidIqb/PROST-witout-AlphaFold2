@@ -26,7 +26,7 @@ Installation of Anaconda3 is prefered
 
 3) Activate your colabfold-conda environment correctly in run_list_colab_alphafold2.sh
 
-5) Activate python3 virtual environment and run the python script (Mutation_pred.py):
+5) Activate python3 virtual environment and run python script (Mutation_pred.py):
 
 	Command-line arguments:
 
