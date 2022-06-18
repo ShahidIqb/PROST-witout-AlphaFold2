@@ -2,7 +2,7 @@
 
 ###...activate colab AlphaFold2 environment for colabfold_batch running...###
 source ~/opt/anaconda3/etc/profile.d/conda.sh
-conda colab_alphafold_local/colabfold_batch/colabfold-conda
+conda activate colab_alphafold_local/colabfold_batch/colabfold-conda
 
 mkdir $2temp_alphafold2
 colabfold_batch --templates --num-recycle 3 --use-gpu-relax --cpu --num-models 1 $1 $2temp_alphafold2
