@@ -4,7 +4,7 @@ A tool for predicting the effects of missense mutations on protein stability cha
 ![prost-flowchart1 1 drawio](https://user-images.githubusercontent.com/48677766/143002063-7b47f238-caad-44ce-8eb8-342a3d6a79e5.png)
 
 
-Requirements: Listed as requirementsPy2_*.txt and requirementsPy3_*.txt for virtual environments. Install ColabFold on you local PC from https://github.com/YoshitakaMo/localcolabfold. *Operating system
+Requirements: Listed as requirementsPy2*.txt and requirementsPy3*.txt for virtual environments. Install ColabFold on you local PC from https://github.com/YoshitakaMo/localcolabfold. *Operating system
 
 Installation of Anaconda3 is prefered
  1) create python3 virtual environment and fulfil (install packages) requirements3.txt
