@@ -4,13 +4,12 @@ A tool for predicting the effects of missense mutations on protein stability cha
 ![prost-flowchart1 1 drawio](https://user-images.githubusercontent.com/48677766/143002063-7b47f238-caad-44ce-8eb8-342a3d6a79e5.png)
 
 
-Requirements: Listed separately as requirementsPy2.txt and requirementsPy3.txt for virtual environments.
+Requirements: Listed as requirementsPy2_*.txt and requirementsPy3_*.txt for virtual environments. Install ColabFold on you local PC from https://github.com/YoshitakaMo/localcolabfold. *Operating system
 
 Installation of Anaconda3 is prefered
-
  1) create python3 virtual environment and fulfil (install packages) requirements3.txt
 
- 2) create python2 virtual environment and fulfil (install packages) requirementspy2.txt [Required for running run_list_spd33.sh on a new sequence file]. Activate python 2  in spd33_run_list.sh
+ 2) create python2 virtual environment and fulfil (install packages) requirementspy2.txt [Required for running run_list_spd33.sh on a new sequence file]. Activate python 2  in run_list_spd33.sh
 [Required for running on a new sequence] 
 
 	Download the following databases and unzip
@@ -25,7 +24,9 @@ Installation of Anaconda3 is prefered
 
 	2.1) Check and rectify paths to DATABASES in Mutation_pred.py and spd33_run_list.sh
 
-3) Activate python3 virtual environment and run the python script (Mutation_pred.py):
+3) Activate your colabfold-conda environment correctly in run_list_colab_alphafold2.sh
+4) 
+5) Activate python3 virtual environment and run the python script (Mutation_pred.py):
 
 	Command-line arguments:
 
@@ -48,7 +49,7 @@ List of mutations
 
 	python Mutation_pred.py -file fasta.txt -mutlist Mut_list.txt -outdir(optional) Result -out-file(optional) mut_list_Result
 
-4) Example:
+5) Example:
 
 	1) python Mutation_pred.py -file Input/Frataxin.txt -mutlist Input/Frataxin_mut.txt -outdir Result
 	
