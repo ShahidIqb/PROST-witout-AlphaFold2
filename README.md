@@ -25,7 +25,7 @@ Installation of Anaconda3 is prefered
 	2.1) Check and rectify paths to DATABASES in Mutation_pred.py and spd33_run_list.sh
 
 3) Activate your colabfold-conda environment correctly in run_list_colab_alphafold2.sh
-4) 
+
 5) Activate python3 virtual environment and run the python script (Mutation_pred.py):
 
 	Command-line arguments:
