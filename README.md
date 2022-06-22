@@ -1,4 +1,4 @@
-# PROST
+# PROST without AlphaFold2
 A tool for predicting the effects of missense mutations on protein stability changes upon missense mutation using protein sequence only.
 
 ![prost-flowchart1 1 drawio](https://user-images.githubusercontent.com/48677766/143002063-7b47f238-caad-44ce-8eb8-342a3d6a79e5.png)
